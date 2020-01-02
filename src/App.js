@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./components/DisplayComponents/Logo";
 import Numbers from './components/ButtonComponents/NumberButtons/Numbers';
 import Operators from './components/ButtonComponents/OperatorButtons/Operators';
-import "./App.css";
+import "./App.scss";
 import Specials from './components/ButtonComponents/SpecialButtons/Specials';
 import Display from './components/DisplayComponents/Display';
 
@@ -20,9 +20,15 @@ function App() {
     <div className="container">
       <Logo />
       <Display/>
-      <Numbers/>
-      <Operators/>
-      <Specials/>
+      <section className="body">
+      <div className="col-1">
+        <Specials/>  
+        <Numbers/>
+      </div>  
+      <div className="col-2">
+        <Operators/>
+      </div>
+      </section>
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>

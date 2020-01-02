@@ -3,9 +3,9 @@ import React from "react";
 const NumberButton = (props) => {
     console.log(props);
   return (
-    <div>
-      <button>{props.num}</button>
-    </div>
+    <>
+      <button className="number-button">{props.num}</button>
+    </>
   );
 };
 

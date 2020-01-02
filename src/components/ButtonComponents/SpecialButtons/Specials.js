@@ -6,11 +6,11 @@ const Specials = () => {
   const [commands] = useState(specials)
 
   return (
-    <div>
+    <>
       {commands.map((command, idx) => {
         return <SpecialButton key={idx} command={command}/>
       })}
-    </div>
+    </>
   );
 };
 
