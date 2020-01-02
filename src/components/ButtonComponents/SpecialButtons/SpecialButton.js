@@ -1,7 +1,11 @@
 import React from "react";
 
-const SpecialButton = props => {
-  return <button className="button special-button">{props.specials}</button>;
+const SpecialButton = (props) => {
+  return (
+    <div>
+      <button>{props.command}</button>
+    </div>
+  );
 };
 
 export default SpecialButton;

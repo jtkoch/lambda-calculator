@@ -20,13 +20,13 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
 
 
 
 
-
+/* 
 .button {
   height: 70px;
   width: 70px;
@@ -53,4 +53,4 @@
 
 .operator-button {
   background: #35ade1;
-}  
+}   */

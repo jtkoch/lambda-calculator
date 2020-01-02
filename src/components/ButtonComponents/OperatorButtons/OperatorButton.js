@@ -1,7 +1,11 @@
 import React from "react";
 
-const OperatorButton = props => {
-  return <button className="button operator-button">{props.operators.value}</button>;
+const OperatorButton = (props) => {
+  return (
+    <div>
+      <button>{props.operator}</button>
+    </div>
+  );
 };
 
 export default OperatorButton;
