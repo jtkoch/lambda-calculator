@@ -23,7 +23,9 @@ function App() {
       <section className="body">
       <div className="col-1">
         <Specials/>  
+      <div className="number-section">
         <Numbers/>
+        </div>    
       </div>  
       <div className="col-2">
         <Operators/>
